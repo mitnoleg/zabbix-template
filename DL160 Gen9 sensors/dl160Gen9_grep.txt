@@ -1,0 +1,78 @@
+UID              
+Sys Health LED   
+01-Inlet Ambient 
+02-CPU 1         
+03-CPU 2         
+04-P1 DIMM 1-4   
+05-P1 DIMM 5-8   
+06-P2 DIMM 1-4   
+07-P2 DIMM 5-8   
+08-HD Max        
+09-Chipset       
+10-Chipset Zone  
+11-PS 1 Zone     
+12-VR P1         
+13-VR P2         
+14-VR P1 Mem     
+15-VR P1 Mem     
+16-VR P2 Mem     
+17-VR P2 Mem     
+18-PS 1 Internal 
+19-PS 2 Internal 
+20-Battery Zone  
+21-Storage Batt  
+22-iLO Zone      
+23-LOM           
+24-PCI 1         
+25-PCI 2         
+26-PCI 3         
+27-PCI 1 Zone    
+28-PCI 2 Zone    
+29-PCI 3 Zone    
+30-LOM Card      
+31-System Board  
+32-I/O Board 1   
+33-I/O Board 2   
+34-Sys Exhaust   
+35-Sys Exhaust   
+Fan 1            
+Fan 1 DutyCycle  
+Fan 1 Presence   
+Fan 2            
+Fan 2 DutyCycle  
+Fan 2 Presence   
+Fan 3            
+Fan 3 DutyCycle  
+Fan 3 Presence   
+Fan 4            
+Fan 4 DutyCycle  
+Fan 4 Presence   
+Fan 5            
+Fan 5 DutyCycle  
+Fan 5 Presence   
+Fan 6            
+Fan 6 DutyCycle  
+Fan 6 Presence   
+Fan 7            
+Fan 7 DutyCycle  
+Fan 7 Presence   
+Power Supply 1   
+PS 1 Output      
+PS 1 Presence    
+Power Supply 2   
+PS 2 Output      
+PS 2 Presence    
+Power Meter      
+PwrMeter Output  
+Power Supplies   
+Fans             
+Megacell Status  
+Memory Status    
+C3 P1I Bay 5     
+C3 P1I Bay 6     
+C3 P1I Bay 7     
+C3 P1I Bay 8     
+C3 P1I Bay 1     
+C3 P1I Bay 2     
+C3 P1I Bay 3     
+C3 P1I Bay 4     
