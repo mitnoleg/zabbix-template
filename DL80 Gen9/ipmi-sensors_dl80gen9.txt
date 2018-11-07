@@ -1,0 +1,83 @@
+ID  | Name             | Type                     | Reading    | Units | Event
+18  | UID              | OEM Reserved             | N/A        | N/A   | 'OEM Event = 0001h'
+19  | Sys Health LED   | OEM Reserved             | N/A        | N/A   | 'OEM Event = 0001h'
+20  | 01-Front Ambient | Temperature              | 21.00      | C     | 'OK'
+21  | 02-CPU 1         | Temperature              | 40.00      | C     | 'OK'
+22  | 03-CPU 2         | Temperature              | N/A        | C     | N/A
+23  | 04-P1 DIMM 1-2   | Temperature              | 35.00      | C     | 'OK'
+24  | 05-P1 DIMM 3-4   | Temperature              | N/A        | C     | N/A
+25  | 06-P2 DIMM 1-2   | Temperature              | N/A        | C     | N/A
+26  | 07-P2 DIMM 3-4   | Temperature              | N/A        | C     | N/A
+27  | 08-HD Max        | Temperature              | 35.00      | C     | 'OK'
+28  | 09-Chipset       | Temperature              | 48.00      | C     | 'OK'
+29  | 10-P/S 1         | Temperature              | 40.00      | C     | 'OK'
+30  | 11-P/S 2         | Temperature              | 40.00      | C     | 'OK'
+31  | 12-VR P1         | Temperature              | 40.00      | C     | 'OK'
+32  | 13-VR P2         | Temperature              | N/A        | C     | N/A
+33  | 14-VR P1 Zone    | Temperature              | 36.00      | C     | 'OK'
+34  | 15-VR P2 Zone    | Temperature              | N/A        | C     | N/A
+35  | 16-VR P1 Mem     | Temperature              | 35.00      | C     | 'OK'
+36  | 17-VR P2 Mem     | Temperature              | N/A        | C     | N/A
+37  | 18-Storage Batt  | Temperature              | 27.00      | C     | 'OK'
+38  | 19-iLO Zone      | Temperature              | 36.00      | C     | 'OK'
+39  | 20-System Board  | Temperature              | 40.00      | C     | 'OK'
+40  | 21-System Board  | Temperature              | 35.00      | C     | 'OK'
+41  | 22-P/S 1 Zone    | Temperature              | 32.00      | C     | 'OK'
+42  | 23-PCI 1 Zone    | Temperature              | N/A        | C     | N/A
+43  | 24-PCI 3 Zone    | Temperature              | 38.00      | C     | 'OK'
+44  | 25-PCI 4 Zone    | Temperature              | 37.00      | C     | 'OK'
+45  | 26-PCI 6 Zone    | Temperature              | 30.00      | C     | 'OK'
+46  | 27-PCI 7 Zone    | Temperature              | 30.00      | C     | 'OK'
+47  | 28-PCI 1         | Temperature              | 85.00      | C     | 'OK'
+48  | 29-PCI 2         | Temperature              | N/A        | C     | N/A
+49  | 30-PCI 3         | Temperature              | N/A        | C     | N/A
+50  | 31-PCI 4         | Temperature              | N/A        | C     | N/A
+51  | 32-LOM Card      | Temperature              | N/A        | C     | N/A
+52  | 33-PCI 6         | Temperature              | N/A        | C     | N/A
+53  | 34-PCI 7         | Temperature              | N/A        | C     | N/A
+54  | 35-PCI 1 Zone    | Temperature              | 40.00      | C     | 'OK'
+55  | 36-PCI 2 Zone    | Temperature              | 38.00      | C     | 'OK'
+56  | 37-PCI 4 Zone    | Temperature              | N/A        | C     | N/A
+57  | 38-I/O Board     | Temperature              | N/A        | C     | N/A
+58  | 39-LOM           | Temperature              | N/A        | C     | N/A
+59  | Fan 1            | Fan                      | N/A        | N/A   | 'transition to Running'
+60  | Fan 1 DutyCycle  | Fan                      | 13.72      | %     | 'OK'
+61  | Fan 1 Presence   | Fan                      | N/A        | N/A   | 'Device Inserted/Device Present'
+62  | Fan 2            | Fan                      | N/A        | N/A   | N/A
+63  | Fan 2 DutyCycle  | Fan                      | N/A        | %     | N/A
+64  | Fan 2 Presence   | Fan                      | N/A        | N/A   | 'Device Removed/Device Absent'
+65  | Fan 3            | Fan                      | N/A        | N/A   | 'transition to Running'
+66  | Fan 3 DutyCycle  | Fan                      | 11.76      | %     | 'OK'
+67  | Fan 3 Presence   | Fan                      | N/A        | N/A   | 'Device Inserted/Device Present'
+68  | Fan 4            | Fan                      | N/A        | N/A   | 'transition to Running'
+69  | Fan 4 DutyCycle  | Fan                      | 11.76      | %     | 'OK'
+70  | Fan 4 Presence   | Fan                      | N/A        | N/A   | 'Device Inserted/Device Present'
+71  | Fan 5            | Fan                      | N/A        | N/A   | N/A
+72  | Fan 5 DutyCycle  | Fan                      | N/A        | %     | N/A
+73  | Fan 5 Presence   | Fan                      | N/A        | N/A   | 'Device Removed/Device Absent'
+74  | Fan 6            | Fan                      | N/A        | N/A   | N/A
+75  | Fan 6 DutyCycle  | Fan                      | N/A        | %     | N/A
+76  | Fan 6 Presence   | Fan                      | N/A        | N/A   | 'Device Removed/Device Absent'
+77  | Power Supply 1   | Power Supply             | N/A        | N/A   | 'Presence detected'
+78  | PS 1 Output      | Power Supply             | 165.00     | W     | 'OK'
+79  | PS 1 Presence    | Power Supply             | N/A        | N/A   | 'Device Inserted/Device Present'
+80  | Power Supply 2   | Power Supply             | N/A        | N/A   | 'Presence detected'
+81  | PS 2 Output      | Power Supply             | 5.00       | W     | 'OK'
+82  | PS 2 Presence    | Power Supply             | N/A        | N/A   | 'Device Inserted/Device Present'
+83  | Power Meter      | Current                  | N/A        | N/A   | 'Device Enabled'
+84  | PwrMeter Output  | Other Units Based Sensor | 170.00     | W     | 'OK'
+85  | Power Supplies   | Power Supply             | N/A        | N/A   | 'Fully Redundant'
+87  | Megacell Status  | Battery                  | N/A        | N/A   | 'battery presence detected'
+88  | Memory Status    | Memory                   | N/A        | N/A   | 'Presence detected'
+89  | C2 P1I Bay 1     | Drive Slot               | N/A        | N/A   | 'Drive Presence'
+90  | C2 P1I Bay 2     | Drive Slot               | N/A        | N/A   | 'Drive Presence'
+91  | C2 P1I Bay 3     | Drive Slot               | N/A        | N/A   | 'Drive Presence'
+92  | C2 P1I Bay 4     | Drive Slot               | N/A        | N/A   | 'Drive Presence'
+93  | C2 P1I Bay 1     | Drive Slot               | N/A        | N/A   | 'Drive Presence'
+94  | C2 P1I Bay 2     | Drive Slot               | N/A        | N/A   | 'Drive Presence'
+95  | C2 P1I Bay 3     | Drive Slot               | N/A        | N/A   | 'Drive Presence'
+96  | C2 P1I Bay 4     | Drive Slot               | N/A        | N/A   | 'Drive Presence'
+97  | C2 P2I Bay 1     | Drive Slot               | N/A        | N/A   | 'Drive Presence'
+98  | C2 P2I Bay 2     | Drive Slot               | N/A        | N/A   | 'Drive Presence'
+99  | C2 P2I Bay 3     | Drive Slot               | N/A        | N/A   | 'Drive Presence'
+100 | C2 P2I Bay 4     | Drive Slot               | N/A        | N/A   | 'Drive Presence'
