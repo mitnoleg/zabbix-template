@@ -12,22 +12,22 @@ ID  | Name             | Type                     | Reading    | Units | Event
 28  | 09-Chipset       | Temperature              | 48.00      | C     | 'OK'
 29  | 10-P/S 1         | Temperature              | 40.00      | C     | 'OK'
 30  | 11-P/S 2         | Temperature              | 40.00      | C     | 'OK'
-31  | 12-VR P1         | Temperature              | 40.00      | C     | 'OK'
+31  | 12-VR P1         | Temperature              | 41.00      | C     | 'OK'
 32  | 13-VR P2         | Temperature              | N/A        | C     | N/A
 33  | 14-VR P1 Zone    | Temperature              | 36.00      | C     | 'OK'
 34  | 15-VR P2 Zone    | Temperature              | N/A        | C     | N/A
-35  | 16-VR P1 Mem     | Temperature              | 35.00      | C     | 'OK'
+35  | 16-VR P1 Mem     | Temperature              | 36.00      | C     | 'OK'
 36  | 17-VR P2 Mem     | Temperature              | N/A        | C     | N/A
-37  | 18-Storage Batt  | Temperature              | 27.00      | C     | 'OK'
+37  | 18-Storage Batt  | Temperature              | 28.00      | C     | 'OK'
 38  | 19-iLO Zone      | Temperature              | 36.00      | C     | 'OK'
 39  | 20-System Board  | Temperature              | 40.00      | C     | 'OK'
-40  | 21-System Board  | Temperature              | 35.00      | C     | 'OK'
-41  | 22-P/S 1 Zone    | Temperature              | 32.00      | C     | 'OK'
+40  | 21-System Board  | Temperature              | 36.00      | C     | 'OK'
+41  | 22-P/S 1 Zone    | Temperature              | 33.00      | C     | 'OK'
 42  | 23-PCI 1 Zone    | Temperature              | N/A        | C     | N/A
 43  | 24-PCI 3 Zone    | Temperature              | 38.00      | C     | 'OK'
 44  | 25-PCI 4 Zone    | Temperature              | 37.00      | C     | 'OK'
-45  | 26-PCI 6 Zone    | Temperature              | 30.00      | C     | 'OK'
-46  | 27-PCI 7 Zone    | Temperature              | 30.00      | C     | 'OK'
+45  | 26-PCI 6 Zone    | Temperature              | 31.00      | C     | 'OK'
+46  | 27-PCI 7 Zone    | Temperature              | 31.00      | C     | 'OK'
 47  | 28-PCI 1         | Temperature              | 85.00      | C     | 'OK'
 48  | 29-PCI 2         | Temperature              | N/A        | C     | N/A
 49  | 30-PCI 3         | Temperature              | N/A        | C     | N/A
@@ -35,13 +35,13 @@ ID  | Name             | Type                     | Reading    | Units | Event
 51  | 32-LOM Card      | Temperature              | N/A        | C     | N/A
 52  | 33-PCI 6         | Temperature              | N/A        | C     | N/A
 53  | 34-PCI 7         | Temperature              | N/A        | C     | N/A
-54  | 35-PCI 1 Zone    | Temperature              | 40.00      | C     | 'OK'
-55  | 36-PCI 2 Zone    | Temperature              | 38.00      | C     | 'OK'
+54  | 35-PCI 1 Zone    | Temperature              | 41.00      | C     | 'OK'
+55  | 36-PCI 2 Zone    | Temperature              | 39.00      | C     | 'OK'
 56  | 37-PCI 4 Zone    | Temperature              | N/A        | C     | N/A
 57  | 38-I/O Board     | Temperature              | N/A        | C     | N/A
 58  | 39-LOM           | Temperature              | N/A        | C     | N/A
 59  | Fan 1            | Fan                      | N/A        | N/A   | 'transition to Running'
-60  | Fan 1 DutyCycle  | Fan                      | 13.72      | %     | 'OK'
+60  | Fan 1 DutyCycle  | Fan                      | 14.11      | %     | 'OK'
 61  | Fan 1 Presence   | Fan                      | N/A        | N/A   | 'Device Inserted/Device Present'
 62  | Fan 2            | Fan                      | N/A        | N/A   | N/A
 63  | Fan 2 DutyCycle  | Fan                      | N/A        | %     | N/A
@@ -65,7 +65,7 @@ ID  | Name             | Type                     | Reading    | Units | Event
 81  | PS 2 Output      | Power Supply             | 5.00       | W     | 'OK'
 82  | PS 2 Presence    | Power Supply             | N/A        | N/A   | 'Device Inserted/Device Present'
 83  | Power Meter      | Current                  | N/A        | N/A   | 'Device Enabled'
-84  | PwrMeter Output  | Other Units Based Sensor | 170.00     | W     | 'OK'
+84  | PwrMeter Output  | Other Units Based Sensor | 160.00     | W     | 'OK'
 85  | Power Supplies   | Power Supply             | N/A        | N/A   | 'Fully Redundant'
 87  | Megacell Status  | Battery                  | N/A        | N/A   | 'battery presence detected'
 88  | Memory Status    | Memory                   | N/A        | N/A   | 'Presence detected'
